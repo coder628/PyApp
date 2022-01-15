@@ -3,7 +3,6 @@ def dark_title_bar(window):
     """
     MORE INFO:
     https://docs.microsoft.com/en-us/windows/win32/api/dwmapi/ne-dwmapi-dwmwindowattribute
-    code by Olikonsti
     """
     window.update()
     DWMWA_USE_IMMERSIVE_DARK_MODE = 20
